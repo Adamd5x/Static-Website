@@ -1,0 +1,23 @@
+@import url('./common.css');
+@import url('./fonts.css');
+
+main {
+ width: 100%;
+ padding: var(--pd-common);
+}
+
+body > header {
+    background-color: var(--clr-header);
+    color: var(--clr-header-primary);
+    width: 100%;
+    padding: var(--pd-common);
+}
+
+body > footer {
+    background-color: var(--clr-footer);
+    color: var(--clr-footer-primary);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: var(--pd-common);
+}
