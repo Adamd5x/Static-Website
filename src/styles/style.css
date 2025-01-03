@@ -1,5 +1,6 @@
 @import url('./common.css');
 @import url('./fonts.css');
+@import url('./buttons-animation.css');
 
 body {
     font-family: var(--ff-body);
@@ -24,4 +25,12 @@ body > footer {
     bottom: 0;
     width: 100%;
     padding: var(--pd-common);
+}
+
+body > main > article {
+    margin: 1rem 0;
+}
+
+body > main > article > h2 {
+    font-size: var(--fs-article-header);
 }

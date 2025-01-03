@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 600;
+    overflow: hidden;
+    border: solid 2px var(--clr);
+    border-radius: 5px;
+}
+
+a:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(90deg, transparent, var(--clr)), transparent;
+  z-index: -1;
+  animation: flow 2s linear infinite;
+}
+
+a:hover {
+    background-color: var(--clr);
+    box-shadow: 0 9px 15px var(--clr);
+}
+
+@keyframes flow{
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}

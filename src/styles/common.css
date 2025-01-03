@@ -28,12 +28,15 @@
     --fs-secondary-heading: var(--fs-700);
     --fs-nav: var(--fs-500);
     --fs-button: var(--fs-300);
-
+    
     --clr-header: var(--clr-primary-400);
     --clr-header-primary: var(--clr-accent-400);
 
     --clr-footer: var(--clr-primary-400);
     --clr-footer-primary: var(--clr-accent-100);
+
+    --fs-article-header: var(--fs-600);
+    --fs-article-subheader: var(--fs-500);
 
     --pd-common: var(--fs-300);
 
